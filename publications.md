@@ -5,15 +5,30 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Preprints
+
+- **Dame, K.T.**, Belloni, P., Moretti, U., Scapini, F., Tuccori, M., & Brazzale, A.R. (2025). *Advances in Ontology-Based Mining of Adverse Drug Reactions.* arXiv preprint.  
+  [https://arxiv.org/abs/2512.11452v1](https://arxiv.org/abs/2512.11452v1)
+
+---
+
 ## Journal Articles
 
-- **Tadesse, K.**, Boccuzzo, G., Tatonetti, N. P. (2024). A novel method for detecting drug-adverse event pairs in longitudinal data. *Journal of Biomedical Informatics*, 150, 104588.
-- **Tadesse, K.**, and Boccuzzo, G. (2023). Frailty indicators in the Italian aging population: a latent class analysis approach. *Statistical Methods & Applications*, 32(4), 1215-1234.
+1. **Fufa, D.B., Diriba, T.A., Dame, K.T.** , et al. (2023). Competing risk models to evaluate the factors for time to loss to follow-up among tuberculosis patients at Ambo General Hospital. *BMC Public Health*.  
+  [https://doi.org/10.1186/s13690-023-01130-2](https://doi.org/10.1186/s13690-023-01130-2)
 
-## Conference Proceedings
+2. **Ashine, T., Muleta, G., & Tadesse, K.** (2021). Assessing survival time of heart failure patients: using Bayesian approach. *Journal of Big Data*.  
+  [https://doi.org/10.1186/s40537-021-00537-4](https://doi.org/10.1186/s40537-021-00537-4)
 
-- **Tadesse, K.** (2024). "Using Text Mining to Improve Pharmacovigilance Signal Detection." *Proceedings of the 49th Annual Meeting of the Italian Statistical Society*.
+---
 
-## Preprints & Under Review
+## Book Chapters
 
-- **Tadesse, K.**, Tatonetti, N. P. "A comparative study of machine learning methods for adverse event prediction." *arXiv preprint arXiv:2401.12345*.
+- **Dame, K.T.** , Belloni, P., Moretti, U., Scapini, F., Tuccori, M., & Brazzale, A.R. (2025). Exploring ontology-based mining of ADRs. In: di Bella, E., Gioia, V., Lagazio, C., Zaccarin, S. (eds) *Statistics for Innovation IV*. SIS 2025. Springer, Cham.  
+  [https://doi.org/10.1007/978-3-031-96033-8_63](https://doi.org/10.1007/978-3-031-96033-8_63)
+
+---
+
+## Conference Presentations
+
+*(Coming soon)*
