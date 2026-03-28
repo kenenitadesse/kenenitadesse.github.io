@@ -1,0 +1,26 @@
+---
+---
+
+.masthead__menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.masthead__menu-item {
+  margin: 5px 0;
+  list-style: none;
+}
+
+.masthead__menu-item a {
+  padding: 8px 15px;
+  display: inline-block;
+}
+
+/* Optional: Add hover effect */
+.masthead__menu-item a:hover {
+  text-decoration: underline;
+}
