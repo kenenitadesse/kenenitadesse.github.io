@@ -65,7 +65,9 @@ I also taught at Rift Valley University, Jimma Campus, Ethiopia (2019–2023), d
   Providing editorial and statistical content review
 
 ## Awards and Scholarships
-
+- **PhD Scholarship** (2023 – Present)  
+  University of Padova, Italy
+  
 - **China Scholarship Council** (2016 – 2018)  
   East China Normal University, Shanghai, China
 
