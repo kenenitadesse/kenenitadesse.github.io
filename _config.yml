@@ -10,8 +10,8 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # Include custom CSS
-include:
-  - assets/css/main.scss
+#include:
+  #- assets/css/main.scss
 # Plugins
 plugins:
   - jekyll-feed
