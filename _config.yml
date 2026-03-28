@@ -9,7 +9,6 @@ url: "https://kenenitadesse.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
-
 # Plugins
 plugins:
   - jekyll-feed
@@ -35,16 +34,18 @@ author:
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=BKsUXgcAAAAJ"
 
-# Defaults
+# Defaults (for pages)
 defaults:
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
-      sidebar:
-        nav: "main"
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
 
 # Build settings
 markdown: kramdown
