@@ -5,266 +5,117 @@ permalink: /research/
 author_profile: true
 ---
 
-My research focuses on the intersection of **biostatistics**, **pharmacovigilance**, and **data science**, with a particular emphasis on developing advanced statistical methods for monitoring drug safety. I am particularly interested in machine learning applications for health data, natural language processing for biomedical texts, and real-world evidence studies.
+My research focuses on the intersection of **biostatistics**, **pharmacovigilance**, and **data science**, with a particular emphasis on developing advanced statistical methods for monitoring drug safety.
 
 ---
 
 ## Current Research
 
 ### PhD Research: Advanced Statistical Methods and Models for Monitoring Drug Safety
-*University of Padova, Italy (2023–Present)*  
-*Supervisor: Prof. Alessandra R. Brazzale*  
-*Co-supervisors: Prof. Ugo Moretti, Dr. Pietro Belloni*
+*University of Padova, Italy (2023–Present)*
 
-My doctoral research focuses on developing innovative statistical approaches to improve the detection and evaluation of adverse drug reactions using real-world data. Key areas include:
+My doctoral research develops innovative statistical approaches to improve adverse drug reaction detection using real-world data. Key areas include:
 
-- **Zero-inflated GPS Modeling:** Developing methods that integrate zero-inflated generalized propensity score modeling with adverse-event ontologies to enhance drug safety signal detection
-- **Post-selection Inference:** Applying post-selection inference techniques to assess model robustness in pharmacovigilance applications
-- **NLP for MedDRA Coding:** Fine-tuning transformer-based models to improve MedDRA (Medical Dictionary for Regulatory Activities) coding for automated adverse event classification
+- **Zero-Inflated GPS Modeling:** Integrating zero-inflated generalized propensity score modeling with adverse-event ontologies to enhance drug safety signal detection
 
----
+- **Post-Selection Inference:** Applying post-selection inference techniques to assess model robustness in pharmacovigilance applications
 
-## Research Experience
+- **NLP for MedDRA Coding from ICSRs:** Fine-tuning transformer-based models to verify MedDRA coding from Individual Case Safety Report narratives
 
-### Research Intern (January 2026 – June 2026)
-*CRPV Bordeaux-DROM, CHU de Bordeaux, France*
-
-Working on NLP-based validation of MedDRA coding for Guillain–Barré Syndrome using CamemBERTbio, a French biomedical language model. This project aims to improve automated adverse event detection in French pharmacovigilance databases.
-
-### Research Intern (September 2024 – February 2025)
-*Centro Regionale di Farmacovigilanza del Veneto (CRFV Veneto)*  
-*University of Verona, Department of Diagnostics and Public Health, Italy*  
-*Supervisor: Prof. Ugo Moretti*
-
-Contributed to pharmacovigilance research activities, focusing on statistical methods for drug safety monitoring and real-world data analysis.
+- **NLP for ADR Extraction from Regulatory Labels:** Developing NLP pipelines to automate adverse drug reaction extraction from Summary of Product Characteristics (SmPCs)
 
 ---
 
 ## Research Projects
 
-### zGPS-AO-PSI: Zero-Inflated GPS with Adverse-Event Ontology
-*GitHub Repository: [zGPS-AO-PSI](https://github.com/kenenitadesse/zGPS-AO-PSI)*
+### NLP for MedDRA Coding
 
-This project integrates zero-inflated generalized propensity score modeling with an adverse-event ontology to enhance drug safety signal detection. Features include:
-- Stratified, random, and thinned data splitting
-- Validation-based MSE and ROC metrics
-- Post-selection inference for model robustness assessment
+#### Finetuned MedDRA Coding: NLP-Based Verification of MedDRA Coding
+*In collaboration with CRPV Bordeaux-DROM, CHU de Bordeaux*
 
-**Contributors:** Kenenisa Tadesse Dame, Pietro Belloni
+**Objective:** Determine whether transformer-based NLP models can assess when ICSR narratives contain sufficient clinical information to support GBS-specific MedDRA coding.
 
-### Finetuned MedDRA Coding
-*GitHub Repository: [Finetuned_MedDRA_coding](https://github.com/kenenitadesse/Finetuned_MedDRA_coding)*
+**Methods:**
+- Fine-tuned CamemBERT-bio on French pharmacovigilance narratives
+- Binary classification (narrow vs. broad GBS SMQ terms)
+- Evaluation under extreme class imbalance (1% positive cases)
 
-Developing fine-tuned transformer-based models to improve MedDRA coding accuracy for adverse event reporting. This work aims to automate and improve the classification of adverse events in pharmacovigilance databases.
+**Results:** Text-only transformer achieved robust performance (F1 = 0.964, AUPRC = 0.980) on balanced subset, demonstrating that narratives contain sufficient clinical signal for coding validation.
 
----
-
-## Research Interests
-
-| **Biostatistics & Epidemiology** | **Pharmacovigilance & Data Science** |
-|----------------------------------|--------------------------------------|
-| Epidemiology and Medical Statistics | Pharmacovigilance and Drug Safety Analytics |
-| Social Statistics | NLP for Biomedical Texts |
-| Survival Analysis | Machine Learning for Health Data |
-| Bayesian Statistics | Real-world Evidence (RWE) Studies |
-| Clinical Trials | Text Mining for Adverse Event Detection |
-| Longitudinal Data Analysis | Ontology-Based Signal Detection |
-| Mathematical Statistics | Statistical Computing |
+**Status:** Manuscript in preparation | GitHub: [Finetuned_MedDRA_coding](https://github.com/kenenitadesse/Finetuned_MedDRA_coding)
 
 ---
 
-## Grants & Funded Research
+#### Automated ADR Extraction from Regulatory Drug Labels
+*In collaboration with CRFV Veneto, University of Verona*
+
+**Objective:** Automate extraction of adverse drug reactions (ADRs) from Summary of Product Characteristics (SmPCs) to enhance pharmacovigilance efficiency and support drug safety research.
+
+**Methods:**
+- NLP extraction using the Polaris system
+- Manual annotation by clinical experts as gold standard
+- ADR mapping to MedDRA Preferred Terms
+- Performance evaluation using recall, precision, F1-score, and accuracy
+
+**Key Consideration:** Following Létinier et al. (2021), accuracy is interpreted alongside other metrics, recognizing its sensitivity to the large number of true negatives in the evaluation framework.
+
+**Status:** Ongoing
+
+---
+
+### Zero-Inflated GPS Modeling & Post-Selection Inference
+
+#### zGPS-AO-PSI: Ontology-Based Mining of Adverse Drug Reactions
+*PhD Research*
+
+**Objective:** Develop a novel approach integrating adverse event ontology into a zero-inflated negative binomial model to improve ADR detection in spontaneous reporting systems.
+
+**Methods:**
+- Zero-inflated Gamma-Poisson shrinker with AE ontology (zGPS.AO)
+- Permutation-based maximum statistic preserving AE correlations
+- Data thinning for post-selection inference
+
+**Results:** The ontology-based model consistently outperforms classical GPS, identifying 245 AE signals compared to 15 detected by GPS in real data application.
+
+**Publications:**
+- **Dame, K.T.**, Belloni, P., Moretti, U., Scapini, F., Tuccori, M., & Brazzale, A.R. (2025). Exploring ontology-based mining of ADRs. In: di Bella, E., et al. (eds) *Statistics for Innovation IV*. Springer, Cham. [https://doi.org/10.1007/978-3-031-96033-8_63](https://doi.org/10.1007/978-3-031-96033-8_63)
+- Dame, K.T., et al. (2025). *Advances in Ontology-Based Mining of Adverse Drug Reactions.* arXiv preprint. [https://arxiv.org/abs/2512.11452v1](https://arxiv.org/abs/2512.11452v1)
+
+**GitHub:** [zGPS-AO-PSI](https://github.com/kenenitadesse/zGPS-AO-PSI)
+
+---
+
+## Grants
 
 ### Prevalence and Factors Associated with Diabetes Mellitus
-*Mega Project Code: CNS-STAT-12-2021/22*  
-*Jimma University College of Natural Sciences*
+*Jimma University (2021–2022) | Funding: ETB 51,614*
 
-Determined the prevalence and factors associated with diabetes mellitus among the adult population in Southwest Ethiopia using multivariable logistic regression analysis.  
-**Funding:** ETB 51,613.80
+Determined prevalence and factors associated with diabetes mellitus among adults in Southwest Ethiopia using multivariable logistic regression.
 
 ### Determinants of Diarrhoea Morbidity among Under-Five Children
-*Mega Research Project Code: CNS-STAT-05-2020*  
-*Jimma University College of Natural Sciences*
+*Jimma University (2020) | Funding: ETB 56,262*
 
-Assessed the prevalence of diarrheal morbidity and associated factors among under-five children in Southwest Ethiopia using multilevel binary logistic regression analysis.  
-**Funding:** ETB 56,262.00
-
----
-
-## Conference Presentations & Participation
-
-### Oral Presentations
-
-- **Dame, K.T.** , Belloni, P., Moretti, U., Scapini, F., Tuccori, M., & Brazzale, A.R. (2025, June 16-18). *Exploring ontology-based mining of ADRs.* Statistics for Innovation IV, Genova, Italy.
-
-### Conference Participation
-
-- **30th Annual Conference of Ethiopian Statistical Association (ESA)** – *The Role of Statistics for National Development in the past, Present, and in the future perspective of Ethiopia* (2022, May 21-22). Addis Ababa, Ethiopia.
-
-- **6th African International Conference on Statistics** – *Advanced Statistical Methods for Solving Challenging Problems in Africa* (2019, May 25-28). Arsi University in collaboration with University of Maryland Baltimore County, Adama, Ethiopia.
-
-- **28th Annual Conference of Ethiopian Statistical Association (ESA)** – *Enhancing the quality of Data for Sustainable Development in Ethiopia* (2019, March 9-10). Bahir Dar University, Bahir Dar, Ethiopia.
-
-- **International Biostatistics Workshop** (2018, July 9-10). East China Normal University, Shanghai, China.
-
-- **International Chinese Statistical Association Conference** (2018, July 2-5). Qingdao, China.
-
-- **25th Anniversary of Ethiopian Statistical Association (ESA)** – *Appraisal of African Statistical Associations (AfSA) and 1st International Statistical Conference in Ethiopia* (2016, May 20-22). Addis Ababa, Ethiopia.
+Assessed prevalence and factors of diarrheal morbidity using multilevel binary logistic regression analysis.
 
 ---
 
 ## Methodological Expertise
 
-### Statistical Methods
-- Survival analysis, time series, longitudinal data analysis
-- Bayesian statistics, multivariate analysis
-- Clinical trial design and analysis
-- Sampling theory and survey methodology
-- Econometrics and demographic methods
+| **Statistical Methods** | **Pharmacovigilance** | **Machine Learning & NLP** |
+|-------------------------|----------------------|----------------------------|
+| Survival Analysis | Signal Detection Methods | Predictive Modeling |
+| Bayesian Statistics | Disproportionality Analysis | NLP for Biomedical Texts |
+| Zero-Inflated Models | Post-Market Surveillance | Transformer Models (CamemBERT-bio) |
+| Empirical Bayes Methods | Real-World Evidence | Text Classification |
+| Post-Selection Inference | MedDRA Ontology | Fine-Tuning & Transfer Learning |
+| Longitudinal Analysis | SmPC & Regulatory Labels | NLP Pipelines (Polaris) |
+| Clinical Trials | | |
+| Sampling Theory | | |
 
-### Pharmacovigilance
-- Signal detection methods
-- Disproportionality analysis
-- Post-market drug safety surveillance
-- Real-world evidence studies
-
-### Machine Learning & NLP
-- Predictive modeling
-- Natural language processing for biomedical texts
-- Transformer models (CamemBERTbio)
-- Text classification for adverse event detection
-
-### Statistical Software
-- **Expert:** R, SAS, STATA, SPSS
-- **Proficient:** Python, MATLAB, Minitab, EViews, EPI DATA INFO
-- **Programming:** LaTeX, Microsoft Office Suite
+**Statistical Software:** R, SAS, STATA, SPSS, Python
 
 ---
 
-## Publications
+## Open Science
 
-For a complete list of my publications, please visit the [Publications](/publications/) page.
-
----
-
-## Open Science & Reproducibility
-
-I am committed to open science practices. All my research code is available on [GitHub](https://github.com/kenenitadesse), and I strive to make my work reproducible and accessible to the research community.- Stratified, random, and thinned data splitting
-- Validation-based MSE and ROC metrics
-- Post-selection inference for model robustness assessment
-
-**Contributors:** Kenenisa Tadesse Dame, Pietro Belloni
-
-### Finetuned MedDRA Coding
-*GitHub Repository: [Finetuned_MedDRA_coding](https://github.com/kenenitadesse/Finetuned_MedDRA_coding)*
-
-Developing fine-tuned transformer-based models to improve MedDRA coding accuracy for adverse event reporting. This work aims to automate and improve the classification of adverse events in pharmacovigilance databases.
-
----
-
-## Research Teams & Collaborations
-
-### Age-It: Ageing Well in an Ageing Society
-*Next Generation EU Funded Project*  
-*Spoke 4, WP5 | PI: Prof. Giovanna Boccuzzo*
-
-I am a member of this large-scale European project focused on understanding and predicting frailty indicators in the aging population using large-scale survey and administrative data.
-
-### GLASS Laboratory
-*Laboratory of Social Statistics*
-
-I am a proud member of [GLASS](https://www.glass-statistics.it/), a laboratory of social statistics created and run by young Italian researchers. GLASS promotes open science, reproducible research, and collaboration in social and health statistics.
-
----
-
-## Research Interests
-
-| **Biostatistics & Epidemiology** | **Pharmacovigilance & Data Science** |
-|----------------------------------|--------------------------------------|
-| Epidemiology and Medical Statistics | Pharmacovigilance and Drug Safety Analytics |
-| Social Statistics | NLP for Biomedical Texts |
-| Survival Analysis | Machine Learning for Health Data |
-| Bayesian Statistics | Real-world Evidence (RWE) Studies |
-| Clinical Trials | Text Mining for Adverse Event Detection |
-| Longitudinal Data Analysis | Ontology-Based Signal Detection |
-| Mathematical Statistics | Statistical Computing |
-
----
-
-## Grants & Funded Research
-
-### Prevalence and Factors Associated with Diabetes Mellitus
-*Mega Project Code: CNS-STAT-12-2021/22*  
-*Jimma University College of Natural Sciences*
-
-Determined the prevalence and factors associated with diabetes mellitus among the adult population in Southwest Ethiopia using multivariable logistic regression analysis.  
-**Funding:** ETB 51,613.80
-
-### Determinants of Diarrhoea Morbidity among Under-Five Children
-*Mega Research Project Code: CNS-STAT-05-2020*  
-*Jimma University College of Natural Sciences*
-
-Assessed the prevalence of diarrheal morbidity and associated factors among under-five children in Southwest Ethiopia using multilevel binary logistic regression analysis.  
-**Funding:** ETB 56,262.00
-
----
-
-## Conference Presentations & Participation
-
-### Oral Presentations
-
-- **Dame, K.T.** , Belloni, P., Moretti, U., Scapini, F., Tuccori, M., & Brazzale, A.R. (2025, June 16-18). *Exploring ontology-based mining of ADRs.* Statistics for Innovation IV, Genova, Italy.
-
-### Conference Participation
-
-- **30th Annual Conference of Ethiopian Statistical Association (ESA)** – *The Role of Statistics for National Development in the past, Present, and in the future perspective of Ethiopia* (2022, May 21-22). Addis Ababa, Ethiopia.
-
-- **6th African International Conference on Statistics** – *Advanced Statistical Methods for Solving Challenging Problems in Africa* (2019, May 25-28). Arsi University in collaboration with University of Maryland Baltimore County, Adama, Ethiopia.
-
-- **28th Annual Conference of Ethiopian Statistical Association (ESA)** – *Enhancing the quality of Data for Sustainable Development in Ethiopia* (2019, March 9-10). Bahir Dar University, Bahir Dar, Ethiopia.
-
-- **International Biostatistics Workshop** (2018, July 9-10). East China Normal University, Shanghai, China.
-
-- **International Chinese Statistical Association Conference** (2018, July 2-5). Qingdao, China.
-
-- **25th Anniversary of Ethiopian Statistical Association (ESA)** – *Appraisal of African Statistical Associations (AfSA) and 1st International Statistical Conference in Ethiopia* (2016, May 20-22). Addis Ababa, Ethiopia.
-
----
-
-## Methodological Expertise
-
-### Statistical Methods
-- Survival analysis, time series, longitudinal data analysis
-- Bayesian statistics, multivariate analysis
-- Clinical trial design and analysis
-- Sampling theory and survey methodology
-- Econometrics and demographic methods
-
-### Pharmacovigilance
-- Signal detection methods
-- Disproportionality analysis
-- Post-market drug safety surveillance
-- Real-world evidence studies
-
-### Machine Learning & NLP
-- Predictive modeling
-- Natural language processing for biomedical texts
-- Transformer models (CamemBERTbio)
-- Text classification for adverse event detection
-
-### Statistical Software
-- **Expert:** R, SAS, STATA, SPSS
-- **Proficient:** Python, MATLAB, Minitab, EViews, EPI DATA INFO
-- **Programming:** LaTeX, Microsoft Office Suite
-
----
-
-## Publications
-
-For a complete list of my publications, please visit the [Publications](/publications/) page.
-
----
-
-## Open Science & Reproducibility
-
-I am committed to open science practices. All my research code is available on [GitHub](https://github.com/kenenitadesse), and I strive to make my work reproducible and accessible to the research community.
+All my research code is available on [GitHub](https://github.com/kenenitadesse). I am committed to reproducible research practices.
