@@ -7,7 +7,7 @@ author_profile: true
 
 You can download a PDF version of my CV below.
 
-[Download PDF Version](/assets/files/CV_BEST.pdf)
+[Download PDF Version](/assets/CV_BEST.pdf)
 
 ---
 
