@@ -1,7 +1,7 @@
 # Site settings
 title: "Kenenisa Tadesse Dame"
 name: "Kenenisa Tadesse Dame"
-description: "PhD Candidate in Statistical Sciences, Biostatistics and Pharmacovigilance"
+description: "Statistician | Biostatistician | Pharmacovigilance Researcher"
 baseurl: ""
 url: "https://kenenitadesse.github.io"
 
@@ -19,20 +19,35 @@ plugins:
 # Author info (sidebar)
 author:
   name: "Kenenisa Tadesse Dame"
-  bio: "PhD Candidate in Statistical Sciences, University of Padova"
+  bio: "PhD in Statistics (thesis submitted). Available from October 2026 for postdoc and industry positions."
   location: "Padova, Italy"
-  email: "kenenisatadesse@gmail.com"
+  email: "kenenisatadesse.dame@phd.unipd.it"
   avatar: "/assets/images/profile.jpg"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/kenenitadesse"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kenenisatadesse.dame@phd.unipd.it"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+393519578810"
+    - label: "Website"
+      icon: "fas fa-fw fa-globe"
+      url: "https://kenenitadesse.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/kenenitadesse/"
+      url: "https://www.linkedin.com/in/kenenisa-tadesse-dame/"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=BKsUXgcAAAAJ"
+    - label: "ORCID"
+      icon: "fas fa-fw fa-id-card"
+      url: "https://orcid.org/0000-0003-1205-472X"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kenenitadesse"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/cv.pdf"
 
 # Defaults (for pages)
 defaults:
