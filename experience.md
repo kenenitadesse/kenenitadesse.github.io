@@ -107,10 +107,4 @@ The CRFV Veneto is the regional pharmacovigilance centre for the Veneto region o
 
 ---
 
-## 🔗 Related Pages
 
-- [Publications](/publications/) — peer-reviewed papers, preprints, and book chapters
-- [Talks & Posters](/talks/) — oral and poster presentations
-- [Software](/software/) — code repositories
-- [PhD Courses](/phd-courses/) — doctoral coursework
-- [PhD Seminars](/phd-seminars/) — doctoral seminars attended
