@@ -13,7 +13,7 @@ author_profile: true
 
 ## 👋 Hello, I'm Kenenisa
 
-I am a **statistician and biostatistician** with 8+ years of experience in Bayesian methods, survival analysis, clinical trials, and pharmacovigilance. I have **submitted my PhD thesis** in Statistical Sciences at the **University of Padova** (UniPd), supervised by [Prof. Alessandra R. Brazzale](https://homes.stat.unipd.it/alessandrarosalbabrazzale/) with co-supervision from [Prof. Ugo Moretti](https://www.medicina.univr.it/main?ent=persona&id=1180&lang=en), [Prof. Francesco Salvo](https://www.chu-bordeaux.fr/Les-médecins/SALVO-FRANCESCO/), and [Dr. Pietro Belloni](https://homes.stat.unipd.it/pietrobelloni/). My final defense is scheduled for **January 2027**.
+I am a **biostatistician** whose PhD research (2023–2027) focuses on statistical and machine learning methods for pharmacovigilance. I have **6 years of university teaching experience** in statistics and biostatistics, and my methodological expertise includes Bayesian methods, survival analysis, and clinical trials. I have **submitted my PhD thesis** in Statistical Sciences at the **University of Padova** (UniPd), supervised by [Prof. Alessandra R. Brazzale](https://homes.stat.unipd.it/alessandrarosalbabrazzale/) with co-supervision from [Prof. Ugo Moretti](https://www.medicina.univr.it/main?ent=persona&id=1180&lang=en), [Prof. Francesco Salvo](https://www.chu-bordeaux.fr/Les-médecins/SALVO-FRANCESCO/), and [Dr. Pietro Belloni](https://homes.stat.unipd.it/pietrobelloni/). My final defense is scheduled for **January 2027**.
 
 My PhD thesis, **"Advanced Statistical Methods and Models for Monitoring Drug Safety"**, develops statistical and machine learning approaches for **signal detection** and **signal management/validation** of adverse drug reactions from real-world data.
 
@@ -81,7 +81,7 @@ I am actively seeking positions in the following areas:
 
 ## 🔭 What's next
 
-I am actively seeking **postdoctoral positions** and **industry roles** in biostatistics, data science, and pharmacovigilance. I am excited to explore **LLMs**, **graphical models**, **AI-driven causality assessment**, and advanced AI methods for pharmacovigilance.
+I am actively seeking **postdoctoral positions** and **industry roles** in biostatistics, data science, and pharmacovigilance.
 
 ---
 
