@@ -1,14 +1,21 @@
-# Main navigation
 main:
   - title: "About"
     url: /
+  - title: "CV"
+    url: /cv/
+  - title: "Research"
+    url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Talks & Posters"
+    url: /talks/
   - title: "Software"
     url: /software/
   - title: "Teaching"
     url: /teaching/
-  - title: "CV"
-    url: /cv/
+  - title: "PhD Courses"
+    url: /phd-courses/
+  - title: "PhD Seminars"
+    url: /phd-seminars/
   - title: "Contact"
     url: /contact/
