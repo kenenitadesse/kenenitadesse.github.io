@@ -51,9 +51,6 @@ I believe in:
 
 ---
 
-
-
-
 ## Citation
 
 If you use any of these code repositories in your research, please cite the corresponding publications. For questions or contributions, feel free to open an issue on GitHub or contact me directly.
