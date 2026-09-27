@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "PhD Training"
+title: "PhD Courses"
 permalink: /phd-training/
 author_profile: true
 ---
