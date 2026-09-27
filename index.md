@@ -7,7 +7,7 @@ author_profile: true
 
 > **I am on the 2026–2027 academic and industry job market.**
 > **Available from October 1, 2026** for postdoctoral positions and industry roles in biostatistics, data science, and pharmacovigilance.
-> [Contact me](/contact/) | [Download CV](/assets/cv.pdf)
+>  [Download CV](/assets/cv.pdf)
 
 ---
 
