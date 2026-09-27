@@ -17,11 +17,10 @@ I welcome **postdoctoral opportunities**, **industry positions**, research colla
 
 If you are a **prospective postdoc host**, **hiring manager**, or **recruiter**, please reach out directly:
 
-- 📧 **Email:** [kenenisatadesse.dame@phd.unipd.it](mailto:kenenisatadesse.dame@phd.unipd.it)
+- 📧 **Primary Email:** [kenenisatadesse.dame@phd.unipd.it](mailto:kenenisatadesse.dame@phd.unipd.it)
+- 📧 **Alternative Email:** [kenenisa.biostat@gmail.com](mailto:kenenisa.biostat@gmail.com)
 - 📞 **Phone:** +39 351 957 8810
 - 📄 **CV:** [Download PDF](/assets/cv.pdf)
-- 💼 **LinkedIn:** [kenenisa-tadesse-dame](https://www.linkedin.com/in/kenenisa-tadesse-dame/)
-- 🎓 **Google Scholar:** [Profile](https://scholar.google.com/citations?user=BKsUXgcAAAAJ)
 
 ---
 
@@ -45,14 +44,6 @@ If you are a **prospective postdoc host**, **hiring manager**, or **recruiter**,
 - **Availability:** From October 1, 2026
 - **PhD defense:** January 2027
 - **Mobility:** Open to relocation across Europe and beyond
-
----
-
-## Email
-
-📧 [kenenisatadesse.dame@phd.unipd.it](mailto:kenenisatadesse.dame@phd.unipd.it)
-
-For non-academic inquiries: [kenenisa.biostat@gmail.com](mailto:kenenisa.biostat@gmail.com)
 
 ---
 
