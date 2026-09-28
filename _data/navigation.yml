@@ -3,6 +3,8 @@ main:
     url: /
   - title: "CV"
     url: /cv/
+  - title: "Research"
+    url: /research/
   - title: "Experience"
     url: /experience/
   - title: "Publications"
@@ -12,13 +14,10 @@ main:
   - title: "Software"
     url: /software/
   - title: "Teaching"
-    url: "#"
-    children:
-      - title: "Teaching Experience"
-        url: /teaching/
-      - title: "PhD Courses"
-        url: /phd-courses/
-      - title: "PhD Seminars"
-        url: /phd-seminars/
+    url: /teaching/
+  - title: "PhD Courses"
+    url: /phd-courses/
+  - title: "PhD Seminars"
+    url: /phd-seminars/
   - title: "Contact"
     url: /contact/
