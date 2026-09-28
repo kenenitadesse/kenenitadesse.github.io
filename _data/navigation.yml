@@ -11,12 +11,12 @@ main:
     url: /publications/
   - title: "Talks & Posters"
     url: /talks/
-  - title: "More"
+  - title: "Software"
+    url: /software/
+  - title: "Teaching"
     url: "#"
     children:
-      - title: "Software"
-        url: /software/
-      - title: "Teaching"
+      - title: "Teaching Experience"
         url: /teaching/
       - title: "PhD Courses"
         url: /phd-courses/
