@@ -11,13 +11,16 @@ main:
     url: /publications/
   - title: "Talks & Posters"
     url: /talks/
-  - title: "Software"
-    url: /software/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "PhD Courses"
-    url: /phd-courses/
-  - title: "PhD Seminars"
-    url: /phd-seminars/
+  - title: "More"
+    url: "#"
+    children:
+      - title: "Software"
+        url: /software/
+      - title: "Teaching"
+        url: /teaching/
+      - title: "PhD Courses"
+        url: /phd-courses/
+      - title: "PhD Seminars"
+        url: /phd-seminars/
   - title: "Contact"
     url: /contact/
