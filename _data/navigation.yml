@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /
+  - title: "CV"
+    url: /cv/
   - title: "Experience"
     url: /experience/
   - title: "Publications"
@@ -9,10 +11,7 @@ main:
     url: /talks/
   - title: "Software"
     url: /software/
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Courses"
+    url: /courses/
   - title: "Contact"
     url: /contact/
-  - title: "GCourses"
-    url: /courses/
-  
