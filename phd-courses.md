@@ -4,7 +4,6 @@ title: "Graduate Courses & Seminars"
 permalink: /courses/
 author_profile: true
 redirect_from:
-  - /phd-courses/
   - /phd-seminars/
 ---
 
