@@ -7,7 +7,7 @@ author_profile: true
 
 > **I am on the 2026–2027 academic and industry job market.**
 > **Available from October 1, 2026** for postdoctoral positions and industry roles in biostatistics, data science, and pharmacovigilance.
->  [Download CV](/assets/cv.pdf)
+> [Download CV](/assets/cv.pdf)
 
 ---
 
@@ -29,20 +29,7 @@ My PhD thesis, **"Advanced Statistical Methods and Models for Monitoring Drug Sa
 | **🎯 Seeking** | Postdoctoral positions + industry roles (biostatistics, data science, pharmacovigilance) |
 | **🌍 Mobility** | Open to relocation across Europe and beyond |
 
----
-
-## 🎯 Open to These Roles
-
-I am actively seeking positions in the following areas:
-
-| **Category** | **Example Roles** |
-|--------------|-------------------|
-| **Postdoctoral Research** | Postdoc in biostatistics, Bayesian statistics, pharmacovigilance, or data science |
-| **Data Analysis** | Data Analyst, Statistical Analyst, Clinical Data Analyst, Research Data Analyst |
-| **Data Management** | Clinical Data Manager, Statistical Data Manager, Data Curator, Data Quality Analyst |
-| **Data Science** | Data Scientist, Machine Learning Scientist, NLP Data Scientist, Health Data Scientist |
-| **Industry (Pharma/CRO)** | Biostatistician, Pharmacovigilance Scientist, Statistical Programmer, Signal Detection Scientist |
-| **Teaching / Academic** | Lecturer, Teaching Fellow, Adjunct Professor (statistics/biostatistics) |
+👉 [See the full list of roles I am seeking →](/contact/#-roles-i-am-seeking)
 
 ---
 
@@ -76,6 +63,8 @@ I am actively seeking positions in the following areas:
 |--------|----------|-------|
 | Jan 2026 – Jul 2026 (6 months) | **CRPV Bordeaux-DROM**, CHU de Bordeaux, France | Biomedical NLP & pharmacovigilance (Co-supervisor: [Prof. Francesco Salvo](https://www.chu-bordeaux.fr/Les-médecins/SALVO-FRANCESCO/)) |
 | Sep 2024 – Feb 2025 (6 months) | **CRFV Veneto**, University of Verona, Italy | Training in pharmacovigilance and drug safety analytics (Co-supervisor: [Prof. Ugo Moretti](https://www.medicina.univr.it/main?ent=persona&id=1180&lang=en)) |
+
+👉 [Full details on the Experience page →](/experience/)
 
 ---
 
