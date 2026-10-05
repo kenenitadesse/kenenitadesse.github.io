@@ -11,7 +11,8 @@ main:
     url: /software/
   - title: "Teaching"
     url: /teaching/
-  - title: "Graduate Courses & Seminars"
-    url: /courses/
   - title: "Contact"
     url: /contact/
+  - title: "Graduate Courses & Seminars"
+    url: /courses/
+  
