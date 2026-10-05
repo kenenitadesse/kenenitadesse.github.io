@@ -13,9 +13,7 @@ main:
     url: /software/
   - title: "Teaching"
     url: /teaching/
-  - title: "Graduate Courses"
-    url: /phd-courses/
-  - title: "PhD Seminars"
-    url: /phd-seminars/
+  - title: "Graduate Courses & Seminars"
+    url: /courses/
   - title: "Contact"
     url: /contact/
