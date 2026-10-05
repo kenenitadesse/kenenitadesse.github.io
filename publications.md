@@ -37,6 +37,4 @@ author_profile: true
 
 ## Contributed Presentations
 
-- **Dame, K.T.**, Belloni, P., Moretti, U., Scapini, F., Tuccori, M., & Brazzale, A.R. (2025). *Exploring ontology-based mining of ADRs.* Statistics for Innovation IV, Genova, Italy, June 16–18, 2025.
-
-- **Dame, K.T.**, Salvo, F., Belloni, P., Crupi, L., Moretti, U., Cholle, C., & Brazzale, A.R. (2026). *Fine-Tuned CamemBERT-Bio Models to Verify MedDRA Coding Related to Guillain-Barré Syndrome in Individual Case Safety Reports Database.* Precision Medicine: Moving from Legend to Reality, Rennes, France, September 2026.
+See the full list of contributed presentations on the [Talks & Posters](/talks/) page.
