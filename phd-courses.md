@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "PhD Courses"
+title: "Graduate Courses"
 permalink: /phd-courses/
 author_profile: true
 ---
 
-During my PhD in Statistical Sciences at the University of Padova (Cycle no. 39), I completed the following compulsory and elective courses.
+Below is a list of graduate-level courses I completed during my MSc in Statistics at East China Normal University and my PhD in Statistical Sciences at the University of Padova (Cycle no. 39).
 
 ---
 
-## 📚 Compulsory Courses
+## 📚PhD Compulsory Courses
 
 | Course | Instructor(s) | Period |
 |--------|---------------|--------|
@@ -22,7 +22,7 @@ During my PhD in Statistical Sciences at the University of Padova (Cycle no. 39)
 
 ---
 
-## 📖 Elective Courses
+## 📖 PhD Elective Courses
 
 | Course | Instructor(s) | Period |
 |--------|---------------|--------|
@@ -33,3 +33,27 @@ During my PhD in Statistical Sciences at the University of Padova (Cycle no. 39)
 | Kalman Filter and State Space Models | Prof. Siem Jan Koopman (VU University Amsterdam) | Jun 26–28, 2024 |
 | Replicability Crisis in Science? | Prof. Giovanni Parmigiani, Prof. Branden Fitelson, Prof. Filippo Gambarota (Harvard University, Northeastern University, University of Padova) | Jul 8–10, 2024 |
 | Graphical Models | Prof. Antonino Abbruzzo (University of Palermo), Prof. Federico Castelletti (Università Cattolica del Sacro Cuore) | Sep 2–3, 2024 |
+
+
+
+## 🎓 MSc in Statistics (Master of Science)
+
+**Institution:** East China Normal University (ECNU), Shanghai, China  
+**Period:** Sep 2016 – Jun 2018  
+**Thesis:** Successfully defended a Master's thesis as part of the graduation requirements.
+
+| Course | Type | Period |
+|--------|------|--------|
+| Basic Chinese (Part One) | General | 2016–2017, 1st Sem |
+| Advanced Mathematical Statistics (I) | Degree Professional | 2016–2017, 1st Sem |
+| Measure Theory | Degree Professional | 2016–2017, 1st Sem |
+| Chinese for Beginner (Part Two) | General | 2016–2017, 2nd Sem |
+| Advanced Mathematical Statistics (II) | Degree Professional | 2016–2017, 2nd Sem |
+| Linear Model | Degree Professional | 2016–2017, 2nd Sem |
+| Biostatistics Methods | Specialty Optional | 2016–2017, 2nd Sem |
+| Multivariate Statistics | Degree Professional | 2017–2018, 1st Sem |
+| Survival Analysis | Specialty Optional | 2017–2018, 1st Sem |
+| Statistical Learning Theory | Specialty Optional | 2017–2018, 1st Sem |
+| Introduction to the Civilization of China | General | 2017–2018, 2nd Sem |
+
+
