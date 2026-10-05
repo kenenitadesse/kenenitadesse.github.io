@@ -30,6 +30,7 @@ Code for ontology-based adverse drug reaction signal detection using zero-inflat
 ### Finetuned_MedDRA_Coding
 [github.com/kenenitadesse/finetuned-meddra-coding](https://github.com/kenenitadesse/finetuned_meddra_coding)
 
+[github.com/kenenitadesse/finetuned-meddra-coding](https://github.com/kenenitadesse/finetuned-meddra-coding)
 Code for fine-tuning CamemBERT-bio to verify MedDRA coding in Individual Case Safety Reports.
 
 **Includes:**
