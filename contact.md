@@ -40,7 +40,7 @@ If you are a **prospective postdoc host**, **hiring manager**, or **recruiter**,
 ## 📌 Key Details
 
 - **Research areas:** Bayesian statistics, survival analysis, clinical trials, pharmacovigilance, signal detection, NLP for drug safety
-- **Technical skills:** R, Python, SAS, STATA, PyTorch, Hugging Face, CamemBERT-Bio
+- **Technical skills:** R, Python, SAS, STATA, PyTorch, Hugging Face, CamemBERT-Bio — [full software training →](/experience/#software-training)
 - **Availability:** From October 1, 2026
 - **PhD defense:** January 2027
 - **Mobility:** Open to relocation across Europe and beyond
