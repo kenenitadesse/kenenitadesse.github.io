@@ -102,4 +102,4 @@ I believe in making statistics accessible and practical. My teaching approach em
 
 ### Copy Editor (2020–Present)
 *Ethiopian Journal of Education and Sciences*
-- Provide editorial review and statistical content assessment for submitted manuscripts.
+- Provide editorial review and statistical content assessment for submitted manuscripts. See my [editorial history](https://journals.ju.edu.et/index.php/ejes/about/editorialHistory) for the full record.
