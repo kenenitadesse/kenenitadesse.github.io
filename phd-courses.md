@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Graduate Courses"
+title: "Graduate Courses & Seminars"
 permalink: /phd-courses/
 author_profile: true
 ---
