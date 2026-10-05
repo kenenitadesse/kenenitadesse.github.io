@@ -4,7 +4,6 @@ title: "Research Experience"
 permalink: /experience/
 author_profile: true
 ---
-
 This page details my research visits and training placements in pharmacovigilance, drug safety analytics, and biomedical natural language processing (NLP). These placements formed the applied core of my PhD research on advanced statistical methods for monitoring drug safety.
 
 ---
