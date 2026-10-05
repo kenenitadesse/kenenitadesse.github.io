@@ -24,12 +24,6 @@ author:
   email: "kenenisatadesse.dame@phd.unipd.it"
   avatar: "/assets/images/profile.jpg"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kenenisatadesse.dame@phd.unipd.it"
-    - label: "Phone"
-      icon: "fas fa-fw fa-phone"
-      url: "tel:+393519578810"
     - label: "Website"
       icon: "fas fa-fw fa-globe"
       url: "https://kenenitadesse.github.io/"
@@ -45,9 +39,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kenenitadesse"
-    - label: "CV"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/cv.pdf"
+    
 
 # Defaults (for pages)
 defaults:
