@@ -13,7 +13,7 @@ author_profile: true
 
 ## 👋 Hello, I'm Kenenisa
 
-I am a **statistician and data scientist** whose PhD research (2023–2027) focuses on statistical and machine learning methods for pharmacovigilance. I have **6 years of university teaching experience** in statistics and biostatistics, and my methodological expertise spans Bayesian methods, survival analysis, clinical trials, natural language processing, and signal detection.
+I am a **statistician and data scientist** whose PhD research (2023–2026) focuses on statistical and machine learning methods for pharmacovigilance. I have **6 years of university teaching experience** in statistics and biostatistics, and my methodological expertise spans Bayesian methods, survival analysis, clinical trials, natural language processing, and signal detection.
 
 I have **submitted my PhD thesis** in Statistical Sciences at the **University of Padova** (UniPd), supervised by [Prof. Alessandra R. Brazzale](https://homes.stat.unipd.it/alessandrarosalbabrazzale/) with co-supervision from [Prof. Ugo Moretti](https://www.medicina.univr.it/main?ent=persona&id=1180&lang=en), [Prof. Francesco Salvo](https://www.chu-bordeaux.fr/Les-médecins/SALVO-FRANCESCO/), and [Dr. Pietro Belloni](https://homes.stat.unipd.it/pietrobelloni/). My final defense is scheduled for **January 2027**.
 
